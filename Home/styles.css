@@ -164,8 +164,41 @@ header > img {
     width: 194px;
     height: 134px;
     margin: 5px;
-    
+
+}
+
+.channelBtn img:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 8px #000, -3px -3px 8px #000;
+
+}
+
+.fire-tv-header {
+    position: relative;
+    min-width: 320px;
+    height: 680px;
+    overflow: hidden;
+    color: #fff;
+}
+
+.fire-tv-header > img {
+     width: 100%;
+     object-fit: contain;
+}
+
+.fire-over-image {
+    background:rgb(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    width: 45%;
+    height: 100%;
+position: absolute;
+top: 60%;
+left: 75%;
+transform: translate(-50% , -40%);
+
 }
 
 
-
+.fire-head{
+    
+}
