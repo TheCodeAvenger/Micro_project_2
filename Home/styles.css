@@ -103,3 +103,69 @@ header > img {
     list-style: 19px;
     margin-top: 12px;
 }
+
+.text-over-image > button{
+
+    width: 280px;
+    background-color: #0f79af;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 14px 22px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 3px;
+    color:#fff;
+    cursor: pointer;
+
+}
+
+.text-over-image > p:last-child {
+    width: 280px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.section {
+    display:flex;
+    justify-content: space-between;
+    margin: 10px 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.favChannels {
+    width: 45%;
+    margin: 30px 20px;
+}
+
+.favChannels > h1 {
+
+    font-size:45px;
+    font-weight: 300;
+    line-height: 50px;
+}
+
+.favChannels > p {
+    font-size: 24px;
+    font-weight: 300px;
+    line-height: 30px;
+    margin-top: 25px;
+    color: #353333;
+}
+
+.channelBtn {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.channelBtn img {
+    width: 194px;
+    height: 134px;
+    margin: 5px;
+    
+}
+
+
+
