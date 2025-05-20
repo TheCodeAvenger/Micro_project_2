@@ -310,3 +310,89 @@ margin: 30px 0;
     padding-top: 30px;
     padding-left: 10;
 } 
+
+
+
+
+
+
+/* trying experiment  */
+
+
+
+/* Movies Section Background */
+.movies-section {
+  background-color: black;
+  padding-bottom: 40px;
+  padding-top: 20px; /* Thoda padding upar bhi diya hai */
+}
+
+/* Heading - Trending Movies */
+.section-heading {
+  font-size: 40px;
+  font-weight: 700;
+  color: white; /* White color for heading */
+  margin: 40px 40px 20px 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Container jisme movies dikhengi */
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  margin: 0 40px 50px 40px;
+}
+
+/* Ek ek movie box */
+.movie {
+  width: 220px;
+  background-color: #1a242f;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  overflow: hidden;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* Movie poster image */
+.movie img {
+  width: 100%;
+  height: 330px;
+  object-fit: cover;
+  border-bottom: 1px solid #0f79af;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect for movie box */
+.movie:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(15, 121, 175, 0.6);
+}
+
+/* Hover effect for movie image */
+.movie:hover img {
+  transform: scale(1.05);
+}
+
+/* Movie title styling */
+.movie .title {
+  padding: 12px 10px;
+  color: #0f79af;
+  font-weight: 700;
+}
+
+/* Additional info under movie (agar chahiye to) */
+.movie .info {
+  font-size: 14px;
+  color: #bbb;
+  margin-bottom: 10px;
+}
+
+/* trying experiment  */

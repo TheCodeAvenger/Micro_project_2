@@ -103,7 +103,7 @@
 
 
 function signinPage(){
-    window.location.href= "SignIn/signIn.html";
+    window.location.href= "../SignIn/signIn.html";
 }
 
 var createAccBtn = document.querySelector(".createAccBtn");
