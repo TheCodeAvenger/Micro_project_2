@@ -1,3 +1,13 @@
+
+
+
+function signinPage(){
+  window.location.href =" /SignIn/signIn.html"
+}
+
+
+
+
 var favChannels = [
     { img_url: "/home/img/channels/Discovery.jpg" },
     { img_url: "/home/img/channels/Docubay.jpg" },
@@ -74,8 +84,6 @@ function showMovies(movies) {
   });
 }
 
-// Optional: If you want to attach signinPage to some button/link manually
-// Example: document.getElementById('signin-btn').addEventListener('click', signinPage);
 
 
 // experimenting something 

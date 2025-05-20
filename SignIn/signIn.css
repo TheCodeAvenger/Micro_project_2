@@ -47,7 +47,7 @@ img{
 
 .emailErr,
 .passErr,
-.wrongcredentials {
+.wrongCredentials {
     display: none;
 
 }
@@ -69,7 +69,7 @@ img{
     font-size: 17px;
     line-height: 21px;
 }
-.signInBox {
+.signInbox {
     border: 1px solid #ddd;
     margin: auto;
     margin-bottom: 26px;

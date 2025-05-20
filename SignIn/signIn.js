@@ -1,5 +1,5 @@
 function signupPage() {
-    window.location.href ="/Signup/signup.html";
+    window.location.href ="../Signup/signup.html";
 }
 
 
